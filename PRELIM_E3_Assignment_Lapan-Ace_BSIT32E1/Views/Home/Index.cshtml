@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home Page</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        div {
+            background-color: lightyellow;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        li:hover {
+            background-color: lightblue;
+            transition: background-color 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><center>WELCOME TO LYCEUM OF ALABANG</center></h1>
+        <p>Name: Ace Lorence L. Lapan @ViewBag.Name</p>
+        <p>Course: BSIT @ViewBag.Course</p>
+        <p>Section: 32E1 @ViewBag.Section</p>
+    </div>
+</body>
+</html>
